@@ -1,20 +1,19 @@
 import "./globals.css";
 import BackgroundCells from "@/components/BackgroundCells";
-import Navbar from "@/components/Navbar";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" style={{ background: 'none' }}>
-      <body className="antialiased" style={{ background: 'none' }}>
-        {/* Step 1: Background and Animation */}
-        <BackgroundCells /> 
-        {/* Navbar added here */}
-        <Navbar show={true} />
+    <html lang="en" className="dark" style={{ background: '#020617' }}>
+      <body className="antialiased relative" style={{ background: 'transparent' }}>
+        {/* The Neural Network Canvas */}
+        <div className="fixed inset-0 z-0">
+           <BackgroundCells />
+        </div>
         
-        {/* Step 2: Content (Must be transparent to see through to the canvas) */}
-        <main className="relative z-10">
+        {/* The Page Content */}
+        <div className="relative z-10">
           {children}
-        </main>
+        </div>
       </body>
     </html>
   );

@@ -23,7 +23,7 @@ export default function Loader({ finishLoading }: { finishLoading: () => void })
     <motion.div 
       initial={{ opacity: 1 }}
       exit={{ opacity: 0, scale: 1.1 }}
-      className="fixed inset-0 z-[99] flex flex-col items-center justify-center bg-[#0a0a0a] font-mono"
+      className="fixed inset-0 z-[99] flex flex-col items-center justify-center font-mono"
     >
       <div className="mb-8 text-center">
         <motion.h2 

@@ -11,10 +11,10 @@ const navItems = [
 ];
 
 interface NavbarProps {
-  show: boolean;
+  show?: boolean;
 }
 
-export default function Navbar({ show }: NavbarProps) {
+export default function Navbar({ show = true }: NavbarProps) {
   return (
     <AnimatePresence>
       {show && (

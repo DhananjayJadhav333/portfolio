@@ -52,14 +52,14 @@ export default function Hero() {
                 target="_blank"
                 className="p-3 rounded-full border border-white/10 text-slate-400 hover:text-blue-500 hover:border-blue-500/50 hover:bg-blue-500/5 transition-all"
               >
-                <Linkedin size={20} />
+                <Linkedin />
               </a>
               <a
                 href="https://github.com/your-username"
                 target="_blank"
                 className="p-3 rounded-full border border-white/10 text-slate-400 hover:text-white hover:border-white/50 hover:bg-white/5 transition-all"
               >
-                <Github size={20} />
+                <Github />
               </a>
             </div>
           </div>
