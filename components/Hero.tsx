@@ -32,9 +32,9 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-slate-400 leading-relaxed mb-10 max-w-lg">
-            Hi.. I am an experienced <span className="text-white font-medium">NetSuite Developer</span> specializing in NetSuite{" "}
-            <span className="text-white font-medium">customizations & integrations</span>, as well as a developer
-            of high-performance <span className="text-white font-medium">SaaS products</span> with
+            Hi, I’m Dhananjay, an experienced <span className="text-white font-medium">NetSuite Developer</span> specializing in NetSuite{" "}
+            <span className="text-white font-medium">customizations and integrations</span>, with expertise in building{" "} 
+            <span className="text-white font-medium">SaaS products</span> using
             Next.js and Java.
           </p>
 
